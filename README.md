@@ -1,5 +1,7 @@
 # travel-itinerary-generator
 An AI-powered web application built with Streamlit and Google's Gemini AI that generates personalized travel itineraries based on destination and trip duration.
+
+
 AI Integration: Leverages the Gemini 1.5 Flash model for intelligent content generation.
 
 Interactive UI: Built with Streamlit to provide a clean, user-friendly interface for inputting travel details.
