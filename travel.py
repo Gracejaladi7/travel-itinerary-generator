@@ -3,7 +3,7 @@ import google.generativeai as genai
 #MILESTONE 1 (The Foundation)
 # Configure API key
 # PASTE YOUR KEY INSIDE THE QUOTES BELOW
-api_key = "AIzaSyComwcD3ZynzfG2l6ymzxMMYcY2ya8A0KA"
+api_key = "YOUR_API_KEY_HERE"
 genai.configure(api_key=api_key)
 
 # Create the model configuration
@@ -61,4 +61,5 @@ def main():
             st.error("Please enter a valid destination and days.")
 
 if __name__ == "__main__":
+
     main()
