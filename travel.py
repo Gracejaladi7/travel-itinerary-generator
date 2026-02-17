@@ -17,7 +17,7 @@ generation_config = {
 
 # Initialize the Generative Model
 model = genai.GenerativeModel(
-    model_name="gemini-pro",
+    model_name="gemini-model",
     generation_config=generation_config,
 )
 
@@ -63,3 +63,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
